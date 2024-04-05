@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/drawable_ladie4.jpeg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/drawable/ladie4.jpeg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/drawable_cars1.jpeg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/drawable/cars1.jpeg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/drawable_cars.jpeg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/drawable/cars.jpeg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/drawable_cars2.jpeg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/drawable/cars2.jpeg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/drawable_img_1.png.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/drawable/img_1.png"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/drawable_ladie3.jpeg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/drawable/ladie3.jpeg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/xml_backup_rules.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.catefixx.app-merged_res-50:/drawable_back.jpeg.flat",
+        "source": "com.example.catefixx.app-main-52:/drawable/back.jpeg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/drawable_img.png.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/drawable/img.png"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/raw_contactanimation.json.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/raw/contactanimation.json"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/drawable_img_2.png.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/drawable/img_2.png"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/drawable_car11.jpeg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/drawable/car11.jpeg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-merged_res-50:/drawable_katana.jpeg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.2/com.example.catefixx.app-main-52:/drawable/katana.jpeg"
+    }
+]

@@ -1,0 +1,215 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.catefixx"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.12.0] /home/emobilis/.gradle/caches/transforms-3/d9df576dcaca9e76e24725bc3e0fc475/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.catefixx.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.12.0] /home/emobilis/.gradle/caches/transforms-3/d9df576dcaca9e76e24725bc3e0fc475/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.12.0] /home/emobilis/.gradle/caches/transforms-3/d9df576dcaca9e76e24725bc3e0fc475/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.catefixx.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.12.0] /home/emobilis/.gradle/caches/transforms-3/d9df576dcaca9e76e24725bc3e0fc475/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.12.0] /home/emobilis/.gradle/caches/transforms-3/d9df576dcaca9e76e24725bc3e0fc475/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:5:5-64:19
+18        android:allowBackup="true"
+18-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.12.0] /home/emobilis/.gradle/caches/transforms-3/d9df576dcaca9e76e24725bc3e0fc475/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="true"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:12:9-35
+28        android:theme="@style/Theme.CateFixx" >
+28-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:13:9-46
+29        <activity
+29-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:15:9-26:20
+30            android:name="com.example.catefixx.SplashActivity"
+30-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:16:13-43
+31            android:exported="true"
+31-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:17:13-36
+32            android:label="CateFixx"
+32-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:18:13-37
+33            android:theme="@style/Theme.CateFixx" >
+33-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:19:13-50
+34            <intent-filter>
+34-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:20:13-24:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:21:17-69
+35-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:21:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:23:17-77
+37-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:23:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:27:9-31:53
+41            android:name="com.example.catefixx.ExploreActivity"
+41-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:28:13-44
+42            android:exported="false"
+42-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:29:13-37
+43            android:label="@string/title_activity_explore"
+43-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:30:13-59
+44            android:theme="@style/Theme.CateFixx" />
+44-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:31:13-50
+45        <activity
+45-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:32:9-36:53
+46            android:name="com.example.catefixx.FirstScreenActivity"
+46-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:33:13-48
+47            android:exported="false"
+47-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:34:13-37
+48            android:label="@string/title_activity_first_screen"
+48-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:35:13-64
+49            android:theme="@style/Theme.CateFixx" />
+49-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:36:13-50
+50        <activity
+50-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:37:9-41:53
+51            android:name="com.example.catefixx.DestinationActivity"
+51-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:38:13-48
+52            android:exported="false"
+52-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:39:13-37
+53            android:label="@string/title_activity_destination"
+53-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:40:13-63
+54            android:theme="@style/Theme.CateFixx" />
+54-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:41:13-50
+55        <activity
+55-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:42:9-46:53
+56            android:name="com.example.catefixx.FormActivity"
+56-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:43:13-41
+57            android:exported="false"
+57-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:44:13-37
+58            android:label="@string/title_activity_form"
+58-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:45:13-56
+59            android:theme="@style/Theme.CateFixx" />
+59-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:46:13-50
+60        <activity
+60-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:47:9-51:53
+61            android:name="com.example.catefixx.IntentActivity"
+61-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:48:13-43
+62            android:exported="false"
+62-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:49:13-37
+63            android:label="@string/title_activity_intent"
+63-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:50:13-58
+64            android:theme="@style/Theme.CateFixx" />
+64-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:51:13-50
+65        <activity
+65-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:52:9-56:53
+66            android:name="com.example.catefixx.layoutactivity"
+66-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:53:13-43
+67            android:exported="false"
+67-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:54:13-37
+68            android:label="@string/title_activity_layoutactivity"
+68-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:55:13-66
+69            android:theme="@style/Theme.CateFixx" />
+69-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:56:13-50
+70        <activity
+70-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:57:9-61:52
+71            android:name="com.example.catefixx.MainActivity"
+71-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:58:13-41
+72            android:exported="false"
+72-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:59:13-37
+73            android:label="@string/app_name"
+73-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:60:13-45
+74            android:theme="@style/Theme.CateFixx" />
+74-->/home/emobilis/AndroidStudioProjects/CateFixx/app/src/main/AndroidManifest.xml:61:13-50
+75        <activity
+75-->[androidx.compose.ui:ui-test-manifest:1.5.0] /home/emobilis/.gradle/caches/transforms-3/c15bcf1bded28fa354e3e5db4bcd6948/transformed/ui-test-manifest-1.5.0/AndroidManifest.xml:23:9-25:39
+76            android:name="androidx.activity.ComponentActivity"
+76-->[androidx.compose.ui:ui-test-manifest:1.5.0] /home/emobilis/.gradle/caches/transforms-3/c15bcf1bded28fa354e3e5db4bcd6948/transformed/ui-test-manifest-1.5.0/AndroidManifest.xml:24:13-63
+77            android:exported="true" />
+77-->[androidx.compose.ui:ui-test-manifest:1.5.0] /home/emobilis/.gradle/caches/transforms-3/c15bcf1bded28fa354e3e5db4bcd6948/transformed/ui-test-manifest-1.5.0/AndroidManifest.xml:25:13-36
+78        <activity
+78-->[androidx.compose.ui:ui-tooling-android:1.5.0] /home/emobilis/.gradle/caches/transforms-3/00d0f7322cd15a5e02258c3c4539c057/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+79            android:name="androidx.compose.ui.tooling.PreviewActivity"
+79-->[androidx.compose.ui:ui-tooling-android:1.5.0] /home/emobilis/.gradle/caches/transforms-3/00d0f7322cd15a5e02258c3c4539c057/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+80            android:exported="true" />
+80-->[androidx.compose.ui:ui-tooling-android:1.5.0] /home/emobilis/.gradle/caches/transforms-3/00d0f7322cd15a5e02258c3c4539c057/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+81
+82        <provider
+82-->[androidx.emoji2:emoji2:1.4.0] /home/emobilis/.gradle/caches/transforms-3/04da80a6fca3327fe9f97cceef988bb0/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.emoji2:emoji2:1.4.0] /home/emobilis/.gradle/caches/transforms-3/04da80a6fca3327fe9f97cceef988bb0/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+84            android:authorities="com.example.catefixx.androidx-startup"
+84-->[androidx.emoji2:emoji2:1.4.0] /home/emobilis/.gradle/caches/transforms-3/04da80a6fca3327fe9f97cceef988bb0/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+85            android:exported="false" >
+85-->[androidx.emoji2:emoji2:1.4.0] /home/emobilis/.gradle/caches/transforms-3/04da80a6fca3327fe9f97cceef988bb0/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+86            <meta-data
+86-->[androidx.emoji2:emoji2:1.4.0] /home/emobilis/.gradle/caches/transforms-3/04da80a6fca3327fe9f97cceef988bb0/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+87-->[androidx.emoji2:emoji2:1.4.0] /home/emobilis/.gradle/caches/transforms-3/04da80a6fca3327fe9f97cceef988bb0/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+88                android:value="androidx.startup" />
+88-->[androidx.emoji2:emoji2:1.4.0] /home/emobilis/.gradle/caches/transforms-3/04da80a6fca3327fe9f97cceef988bb0/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/emobilis/.gradle/caches/transforms-3/c5a5e88b10101db71b02043cd4f59098/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+90-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/emobilis/.gradle/caches/transforms-3/c5a5e88b10101db71b02043cd4f59098/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+91                android:value="androidx.startup" />
+91-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/emobilis/.gradle/caches/transforms-3/c5a5e88b10101db71b02043cd4f59098/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+92            <meta-data
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+94                android:value="androidx.startup" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+95        </provider>
+96
+97        <receiver
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+98            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+99            android:directBootAware="false"
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+100            android:enabled="true"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+101            android:exported="true"
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+102            android:permission="android.permission.DUMP" >
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+104                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+107                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+110                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+111            </intent-filter>
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+113                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-3/d44ecac6aba66a9afe17f960d6e07f3b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+114            </intent-filter>
+115        </receiver>
+116    </application>
+117
+118</manifest>

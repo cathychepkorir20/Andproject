@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable back
+drawable car11
+drawable cars
+drawable cars1
+drawable cars2
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable img
+drawable img_1
+drawable img_2
+drawable katana
+drawable ladie3
+drawable ladie4
+mipmap ic_launcher
+mipmap ic_launcher_round
+raw contactanimation
+string app_name
+string title_activity_destination
+string title_activity_explore
+string title_activity_first_screen
+string title_activity_form
+string title_activity_intent
+string title_activity_layoutactivity
+string title_activity_splash
+style Theme.CateFixx
+xml backup_rules
+xml data_extraction_rules
