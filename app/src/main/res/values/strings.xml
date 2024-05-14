@@ -7,4 +7,12 @@
     <string name="title_activity_first_screen">FirstScreenActivity</string>
     <string name="title_activity_explore">ExploreActivity</string>
     <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_one">OneActivity</string>
+    <string name="title_activity_two">TwoActivity</string>
+    <string name="title_activity_three">ThreeActivity</string>
+    <string name="title_activity_vira4">Vira4Activity</string>
+    <string name="title_activity_employee">EmployeeActivity</string>
+    <string name="title_activity_employees">EmployeesActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_insert">InsertActivity</string>
 </resources>

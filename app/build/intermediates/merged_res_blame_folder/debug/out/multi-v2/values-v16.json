@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.catefixx.app-mergeDebugResources-48:/values-v16/values-v16.xml",
+            "outputFile": "com.example.catefixx.app-mergeDebugResources-51:/values-v16/values-v16.xml",
             "map": [
                 {
                     "source": "/home/emobilis/.gradle/caches/transforms-3/d9df576dcaca9e76e24725bc3e0fc475/transformed/core-1.12.0/res/values-v16/values-v16.xml",

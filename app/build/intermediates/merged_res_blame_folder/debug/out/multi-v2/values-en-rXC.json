@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.catefixx.app-mergeDebugResources-48:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.example.catefixx.app-mergeDebugResources-51:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "/home/emobilis/.gradle/caches/transforms-3/0c37040985f903e29da80e710f1e4536/transformed/material3-1.1.1/res/values-en-rXC/values-en-rXC.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.catefixx.app-mergeDebugResources-48:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.example.catefixx.app-mergeDebugResources-51:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "/home/emobilis/.gradle/caches/transforms-3/6e18ba4389101554fb5fe1d533e4dbd7/transformed/ui-release/res/values-en-rAU/values-en-rAU.xml",

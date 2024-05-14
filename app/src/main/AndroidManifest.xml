@@ -13,6 +13,46 @@
         android:theme="@style/Theme.CateFixx"
         tools:targetApi="31">
         <activity
+            android:name=".InsertActivity"
+            android:exported="false"
+            android:label="@string/title_activity_insert"
+            android:theme="@style/Theme.CateFixx" />
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_details"
+            android:theme="@style/Theme.CateFixx" />
+        <activity
+            android:name=".EmployeesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_employees"
+            android:theme="@style/Theme.CateFixx" />
+        <activity
+            android:name=".EmployeeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_employee"
+            android:theme="@style/Theme.CateFixx" />
+        <activity
+            android:name=".Vira4Activity"
+            android:exported="false"
+            android:label="@string/title_activity_vira4"
+            android:theme="@style/Theme.CateFixx" />
+        <activity
+            android:name=".ThreeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_three"
+            android:theme="@style/Theme.CateFixx" />
+        <activity
+            android:name=".TwoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_two"
+            android:theme="@style/Theme.CateFixx" />
+        <activity
+            android:name=".OneActivity"
+            android:exported="false"
+            android:label="@string/title_activity_one"
+            android:theme="@style/Theme.CateFixx" />
+        <activity
             android:name=".SplashActivity"
             android:exported="true"
             android:label="CateFixx"
@@ -22,7 +62,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".ExploreActivity"
@@ -58,9 +97,7 @@
             android:name=".MainActivity"
             android:exported="false"
             android:label="@string/app_name"
-            android:theme="@style/Theme.CateFixx"/>
-
-
+            android:theme="@style/Theme.CateFixx" />
     </application>
 
 </manifest>

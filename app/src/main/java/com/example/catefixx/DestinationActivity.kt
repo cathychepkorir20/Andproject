@@ -16,7 +16,9 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
@@ -44,6 +46,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -63,178 +66,188 @@ class DestinationActivity : ComponentActivity() {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun Destination(){
-    Column(modifier = Modifier.fillMaxSize()) {
-        val mContext = LocalContext.current
+    Column (modifier = Modifier.fillMaxSize())
+    {
+        var mContext = LocalContext.current
 
-        //topapp bar
+
+
         TopAppBar(
-            title = { Text(text = "Destination", color = Color.White) },
-            colors = TopAppBarDefaults.mediumTopAppBarColors(Color.Red),
+            { Text(text = "  Destination", color = Color.White) },
+            colors = TopAppBarDefaults.mediumTopAppBarColors(Color.Blue),
             navigationIcon = {
-                IconButton(onClick = { /*TODO*/ }) {
-                    Icon(imageVector = Icons.Default.Menu,
-                        contentDescription ="menu",
-                        tint = Color.White)
+                IconButton(onClick = { mContext.startActivity(Intent(mContext,MainActivity::class.java)) }) {
+                    Icon(
+                        imageVector = Icons.Default.ArrowBack, contentDescription = "Back",
+                        tint = Color.White
+                    )
                 }
             },
             actions = {
-                IconButton(onClick = {  val shareIntent= Intent(Intent.ACTION_SEND)
-                    shareIntent.type="text/plain"
-                    shareIntent.putExtra(Intent.EXTRA_TEXT, "Check out this is a cool content")
-                    mContext.startActivity(Intent.createChooser(shareIntent, "Share")) }) {
-                    Icon(imageVector = Icons.Default.Share,
-                        contentDescription = "share",
-                        tint = Color.White)
-                }
-
-                IconButton(onClick = {  }) {
-                    Icon(imageVector = Icons.Default.Settings,
-                        contentDescription = "settings",
-                        tint = Color.White)
-                }
-
-            })
-        //end of topappbar
-
-        Box (modifier = Modifier
-            .fillMaxWidth()
-            .height(200.dp)){
-            Image(painter = painterResource(id = R.drawable.img),
-                contentDescription = "img",
-                modifier = Modifier.fillMaxSize(),
-                contentScale = ContentScale.Crop)
-
-            androidx.compose.material3.Text(text =
-             "Lets plan your next vocation",
-                fontSize = 35.sp,
-                fontWeight = FontWeight.ExtraBold,
-                color = Color.White,
-                textAlign = TextAlign.Center
-            )
-
-            //end of box
-
-            Spacer(modifier = Modifier.height(30.dp))
-            var search by remember { mutableStateOf("") }
-
-            OutlinedTextField(
-                value =search,
-                 onValueChange = {search = it},
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(start = 20.dp, end = 20.dp),
-                placeholder = { androidx.compose.material3.Text(text = "Whats your next Destination")},
-                leadingIcon = {
-                    Icon(imageVector = Icons.Default.Search,
-                        contentDescription = "search")
-
-
-                })
-            //end of search
-            androidx.compose.material3.Text(text = "Recently viewed",
-                fontSize = 20.sp,
-                fontWeight = FontWeight.ExtraBold,
-                fontFamily = FontFamily.Monospace,
-                modifier = Modifier.padding(20.dp)
-            )
-            Spacer(modifier = Modifier.height(5.dp))
-
-
-
-            Spacer(modifier = Modifier.horizontalScroll(rememberScrollState())
-            )
-            Row {
-                //card 1
-                Card(modifier = Modifier
-                    .height(200.dp)
-                    .width(200.dp))
-                {
-                    Column {
-                        Box(modifier = Modifier
-                            .fillMaxWidth()
-                            .height(150.dp),
-                            contentAlignment = Alignment.Center) {
-                            Image(painter = painterResource(id = R.drawable.car11),
-                                contentDescription = "car11",
-                                modifier = Modifier.fillMaxSize(),
-                                contentScale = ContentScale.Crop)
-
-                        }
-                        androidx.compose.material3.Text(text = "car11",
-                            fontSize = 20.sp,
-                            fontWeight = FontWeight.Bold,
-                            modifier = Modifier.fillMaxWidth(),
-                            textAlign = TextAlign.Center)
-                    }
+                IconButton(onClick = { /*TODO*/ }) {
+                    Icon(imageVector = Icons.Default.Share, contentDescription = "share", tint = Color.White)
 
                 }
-                //Enf of card 1
-
-                Spacer(modifier = Modifier.width(5.dp))
-                //card 2
-                Card(modifier = Modifier
-                    .height(200.dp)
-                    .width(200.dp))
-                {
-                    Column {
-                        Box(modifier = Modifier
-                            .fillMaxWidth()
-                            .height(150.dp),
-                            contentAlignment = Alignment.Center) {
-                            Image(painter = painterResource(id = R.drawable.car11),
-                                contentDescription = "car11",
-                                modifier = Modifier.fillMaxSize(),
-                                contentScale = ContentScale.Crop)
-
-                        }
-                        androidx.compose.material3.Text(text = "car11",
-                            fontSize = 20.sp,
-                            fontWeight = FontWeight.Bold,
-                            modifier = Modifier.fillMaxWidth(),
-                            textAlign = TextAlign.Center)
-                    }
-
+                IconButton(onClick = { /*TODO*/ }) {
+                    Icon(
+                        imageVector = Icons.Default.Menu, contentDescription = "Menu",
+                        tint = Color.White
+                    )
                 }
-                //End of card 2
-                Spacer(modifier = Modifier.width(5.dp))
-                //card 3
-                Card(modifier = Modifier
-                    .height(200.dp)
-                    .width(200.dp))
-                {
-                    Column {
-                        Box(modifier = Modifier
-                            .fillMaxWidth()
-                            .height(150.dp),
-                            contentAlignment = Alignment.Center) {
-                            Image(painter = painterResource(id = R.drawable.car11),
-                                contentDescription = "car11",
-                                modifier = Modifier.fillMaxSize(),
-                                contentScale = ContentScale.Crop)
-
-                        }
-                        androidx.compose.material3.Text(text = "car11",
-                            fontSize = 20.sp,
-                            fontWeight = FontWeight.Bold,
-                            modifier = Modifier.fillMaxWidth(),
-                            textAlign = TextAlign.Center)
-                    }
-
-                }
-                //End of card 3
-
 
 
 
             }
 
+        )
+        //end of topapp bar
+
+        Box (modifier = Modifier
+            .fillMaxWidth()
+            .height(200.dp),
+            contentAlignment = Alignment.Center){
+
+            Image(painter = painterResource(id = R.drawable.car11),
+                contentDescription = "car",
+                modifier = Modifier.fillMaxSize(),
+                contentScale = ContentScale.Crop)
+
+            Text(text = "Let's plan your next vacation",
+                color = Color.White,
+                fontWeight = FontWeight.Bold,
+                textAlign = TextAlign.Center,
+                fontSize = 20.sp)
+
+
+
         }
+        //End of Box
+
+        Spacer(modifier = Modifier.height(5.dp))
+        var search by remember { mutableStateOf("") }
 
 
+        //Search Bar
+        OutlinedTextField(value = search,
+            onValueChange ={search = it},
+            placeholder = { Text(text = "What's your destination?")},
+            leadingIcon = { Icon(imageVector = Icons.Default.Search,
+                contentDescription = "search")
+            },
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(start = 20.dp, end = 20.dp),
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text)
+
+        )
+//End of Search Bar
+        Spacer(modifier = Modifier.height(5.dp))
+        Text(text = "Recently viewed destinations",
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center,
+            fontSize = 20.sp,
+            modifier = Modifier.padding(start = 20.dp))
+
+
+// scrollable row
+        Row (modifier = Modifier.horizontalScroll(rememberScrollState())){
+            //Card1
+            Card (modifier = Modifier
+                .width(200.dp)
+                .height(230.dp)){
+                Column {
+                    Box(modifier = Modifier
+                        .fillMaxWidth()
+                        .height(180.dp),
+                        contentAlignment = Alignment.Center) {
+
+                        Image(painter = painterResource(id = R.drawable.back),
+                            contentDescription ="NewYork" ,
+                            modifier = Modifier.fillMaxSize(),
+                            contentScale = ContentScale.Crop)
+
+
+                    }
+                    Text(text = "NewYork",
+                        fontWeight = FontWeight.Bold,
+                        textAlign = TextAlign.Center,
+                        fontSize = 20.sp,
+                        modifier = Modifier.padding(start = 20.dp))
+
+                }
+
+
+            }
+
+            //End of Card1
+            Spacer(modifier = Modifier.width(5.dp))
+//Card1
+            Card (modifier = Modifier
+                .width(200.dp)
+                .height(230.dp)){
+                Column {
+                    Box(modifier = Modifier
+                        .fillMaxWidth()
+                        .height(180.dp),
+                        contentAlignment = Alignment.Center) {
+
+                        Image(painter = painterResource(id = R.drawable.img),
+                            contentDescription ="NewYork" ,
+                            modifier = Modifier.fillMaxSize(),
+                            contentScale = ContentScale.Crop)
+
+
+                    }
+                    Text(text = "NewYork",
+                        fontWeight = FontWeight.Bold,
+                        textAlign = TextAlign.Center,
+                        fontSize = 20.sp,
+                        modifier = Modifier.padding(start = 20.dp))
+
+                }
+
+
+            }
+
+            //End of Card1
+            Spacer(modifier = Modifier.width(5.dp))
+//Card1
+            Card (modifier = Modifier
+                .width(200.dp)
+                .height(230.dp)){
+                Column {
+                    Box(modifier = Modifier
+                        .fillMaxWidth()
+                        .height(180.dp),
+                        contentAlignment = Alignment.Center) {
+
+                        Image(painter = painterResource(id = R.drawable.back),
+                            contentDescription ="NewYork" ,
+                            modifier = Modifier.fillMaxSize(),
+                            contentScale = ContentScale.Crop)
+
+
+                    }
+                    Text(text = "NewYork",
+                        fontWeight = FontWeight.Bold,
+                        textAlign = TextAlign.Center,
+                        fontSize = 20.sp,
+                        modifier = Modifier.padding(start = 20.dp))
+
+                }
+
+
+            }
+
+            //End of Card1
+            Spacer(modifier = Modifier.width(5.dp))
+
+        }
 
     }
 
 }
+
 
 @Preview(showBackground = true)
 @Composable
